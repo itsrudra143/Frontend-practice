@@ -1,0 +1,58 @@
+body {
+  font-family:cursive;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  background-image: url('Pav Bhaji Recipe (Video + 3 Methods Step by Step) - Cubes N Juliennes.jpeg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:lightskyblue;
+}
+
+.recipe {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #e44d26;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 5px, 5px, 0.1);
+}
+
+.ingredients,
+.instructions {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #e44d26;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}

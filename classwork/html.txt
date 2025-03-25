@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+definition of this whole thing now starts from
+<!DOCTYPE html>
+this declaration specifies that the doc is an html Document
+then comes <html lang="en"> indicates that the primary language of this Document is english.
+<head>tag <head>its opening tag and</head>closing tag head tag consists of the information about the html Document rather than the content visible on the screen.
+<meta charset="UTF-8"> tag checks the proper interpretation of text characters. UTF-8 charcater that supports various languages and symbols.
+next is <meta name="viewport" content ="width=device-width, initial-scale=1.0"> it tells about meta name which is viewport meaning how will it look then is content width=device width means that the page designinig will have the width that much which is the width of device.
+then comes intial scale=1.0 which means zoom level is 1.0 means no zoom it will remain as it is .
+then comes title tag which gives the particular title to the document 
+if we write hr tag this tag is used so that we can differentiate betweenn the 2 topics it draws a horizontal lines between the topics.
+
+now almost all tags are defined within the html code side by side.(all table tags are defined in table.html and all tags inside form are in form.html file)
+date input , phn no. password , time , reset btton , select ur option(placeholder),color tag
+now when we use input tyope any using radio or checkboz if we want to select multiple options then let it allow as it is but if we want to select one opyion only then after writing input type add the name inside the input tag only
+and also after applying name to all the input tags give them all the same value of name,(then the work it will do is it will allow you to select only one option the name should be same for all)
+and if we write required attribute or write required inside the input tag then it will show please fill out this field (showing it is compulsory)
+now if we write checked in any input then it means that it will automatically select the particular checkbox or radio wherever it is written checked
+date time local is the tag that shows both date and time at once 
+disabled tag is used so that if the option we dont want to let it show so we disable it so no one can select the option
+reset button is like submit button it helps to reset the whole page
+if we want to set the form in a proper way then we can fill the whole form in a table using tr and td tags
+if we enter body style as background image nd then put the image it will go on repeat method but if we write it as background repeat none then it will not repeat and the image will only be printed once.
+video tag using src tag and then write autoplay loop muted (loop means reeats the video muted yk and only )

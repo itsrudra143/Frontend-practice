@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> shop </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+        <a href="" class="fas fa-heart"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background:url(banner1.jpg) no-repeat">
+                <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>women's Fashion</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(banner2.jpg) no-repeat">
+                <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>men's Fashion</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(banner3.jpg) no-repeat">
+                <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>kid's Fashion</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="img111.webp" alt="">
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <img src="shop_banner_img2.jpg" alt="">
+        <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> exclusive <span>products</span> </h1>
+
+    <div class="filter-buttons">
+        <div class="buttons active" data-filter="all">all</div>
+        <div class="buttons" data-filter="arrivals">new arrivals</div>
+        <div class="buttons" data-filter="featured">featured</div>
+        <div class="buttons" data-filter="special">special offer</div>
+        <div class="buttons" data-filter="seller">best seller</div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's Printed Dresses</h3>
+                <div class="price">
+                    <div class="amount">₹1500.00</div>
+                    <div class="cut"> ₹2500.00</div>
+                    <div class="offer">40% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Men's Formal Wear Suit</h3>
+                <div class="price">
+                    <div class="amount">₹1500.00</div>
+                    <div class="cut">₹2500.00</div>
+                    <div class="offer">40% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's Casual Dresses</h3>
+                <div class="price">
+                    <div class="amount">₹600.00</div>
+                    <div class="cut">₹1200.00</div>
+                    <div class="offer">50% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Kid's Casual Wear Shirts
+                </h3>
+                <div class="price">
+                    <div class="amount">₹700.00</div>
+                    <div class="cut">₹1000.00</div>
+                    <div class="offer">30% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's Casuals</h3>
+                <div class="price">
+                    <div class="amount">₹1120.00</div>
+                    <div class="cut">₹1400.00</div>
+                    <div class="offer">20% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Shirts for Men</h3>
+                <div class="price">
+                    <div class="amount">₹600.00</div>
+                    <div class="cut">₹1000.00</div>
+                    <div class="offer">40% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's Dresses</h3>
+                <div class="price">
+                    <div class="amount">₹1000.00</div>
+                    <div class="cut">₹1500.00</div>
+                    <div class="offer">33% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Men's Jackets</h3>
+                <div class="price">
+                    <div class="amount">₹600.00</div>
+                    <div class="cut">₹1200.00</div>
+                    <div class="offer">50% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's Jeans</h3>
+                <div class="price">
+                    <div class="amount">₹1000.00</div>
+                    <div class="cut">₹1800.00</div>
+                    <div class="offer">44% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Men's Printed Shirts</h3>
+                <div class="price">
+                    <div class="amount">₹600.00</div>
+                    <div class="cut">₹1200.00</div>
+                    <div class="offer">50% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's Dresses</h3>
+                <div class="price">
+                    <div class="amount">₹2000.00</div>
+                    <div class="cut">₹2500.00</div>
+                    <div class="offer">20% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="product_img12.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Women's T-Shirts</h3>
+                <div class="price">
+                    <div class="amount">₹1000.00</div>
+                    <div class="cut">₹700.00</div>
+                    <div class="offer">40% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="image">
+        <img src="tranding_img.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>new season trending!</span>
+        <h3>best summer collection</h3>
+        <p>sale get up to 50% off</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="swiper featured-slider">
+        
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product_img1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Printed Dresses</h3>
+                    <div class="price">
+                        <div class="amount">₹1500.00</div>
+                        <div class="cut">₹2500.00</div>
+                        <div class="offer">40% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product_img2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Men's Formal Wear</h3>
+                    <div class="price">
+                        <div class="amount">₹1500.00</div>
+                        <div class="cut">₹2500.00</div>
+                        <div class="offer">40% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product_img3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Women's Casual Dresses</h3>
+                    <div class="price">
+                        <div class="amount">₹600.00</div>
+                        <div class="cut">₹1200.00</div>
+                        <div class="offer">33% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product_img4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kid's Casual Wear</h3>
+                    <div class="price">
+                        <div class="amount">₹700.00</div>
+                        <div class="cut">₹1000.00</div>
+                        <div class="offer">30% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product_img5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Summer Casuals</h3>
+                    <div class="price">
+                        <div class="amount">₹1120.00</div>
+                        <div class="cut">₹1400.00</div>
+                        <div class="offer">20% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="product_img6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Shirts for Men</h3>
+                    <div class="price">
+                        <div class="amount">₹600.00</div>
+                        <div class="cut">₹1000.00</div>
+                        <div class="offer">40% off</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="swiper review-slide">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p>I recently made a purchase from a clothing website, and I have to say, I'm thoroughly impressed with my experience!From start to finish.</p>
+                <div class="user">
+                    <img src="pic-1.png" alt="">
+                    <div class="info">
+                        <h3>john deo </h3>
+                        <span>happy client</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>The website itself is incredibly user-friendly.It's easy to navigate and find exactly what you're looking for, with clear and concise categories and filters.</p>
+                <div class="user">
+                    <img src="pic-2.png" alt="">
+                    <div class="info">
+                        <h3>Olivia</h3>
+                        <span>happy client</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>The product pages are well-designed, with multiple images and detailed descriptions that give you a great idea of what you're getting.</p>
+                <div class="user">
+                    <img src="pic-3.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <span>happy client</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>This clothing website offers a wide range of trendy and affordable fashion options, making it my go-to destination for all my style needs.</p>
+                <div class="user">
+                    <img src="pic-4.png" alt="">
+                    <div class="info">
+                        <h3>Olivia</h3>
+                        <span>happy client</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>The clothing website's user-friendly interface, fast shipping, and high-quality products make it a top choice for online shopping.</p>
+                <div class="user">
+                    <img src="pic-5.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <span>happy client</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>The clothes on this website are not only fashionable and stylish but also made from high-quality materials, ensuring both comfort and durability.</p>
+                <div class="user">
+                    <img src="pic-6.png" alt="">
+                    <div class="info">
+                        <h3>john deo</h3>
+                        <span>happy client</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>address</h3>
+            <p>Chitkara University, Rajpura, Patiala, Punjab - 140401 </p>
+        </div>
+
+        <div class="icons">
+            <a href="mailto:sania785.be22@chitkara.edu.in"><i class="fas fa-envelope"></i></a>
+            <h3>email</h3>
+            <p>Contact1@gmail.com</p>
+            <p>Contact2@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+123-456-7890</p>
+            <p>+111-222-3333</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Your number">
+                <input type="text" placeholder="Your subject">
+            </div>
+            <textarea placeholder="Your message" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.175137517466!2d76.65490688208769!3d30.5160864094281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1685188877654!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs  section starts  -->
+
+<section class="blogs" id="blogs">
+    
+    <h1 class="heading"> our <span>blogs</span></h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fashion Forward: Unveiling the Trendiest Wardrobe</h3>
+                    <p>Step into a world of sartorial splendor as we embark on a journey to explore the latest fashion offerings.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Revamp Your Style: Discover the Hidden Gems of Fashion</h3>
+                    <p>Get ready to elevate your fashion game as we unveil a treasure trove of exquisite pieces.Discover the Hidden Gems of Fashion</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Seasonal Staples: Embrace the Hottest Fashion Trends of the Year</h3>
+                    <p>Embark on a stylish journey through the seasons as we showcase must-have Trends.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Effortless Elegance: Unlock Your Inner Fashion Icon </h3>
+                    <p>Discover the secrets to effortless elegance as we delve into the curated collection of timeless pieces.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Unleash Your Creativity: Mix and Match Outfit Ideas</h3>
+                    <p>Break free from fashion norms and unleash your creativity with a plethora of mix and match outfit ideas.</p>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2023 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- blogs  section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Welcome to our website, where fashion meets passion. We curate stylish and high-quality pieces to elevate your wardrobe and empower your unique style.</p>
+        </div>
+
+        <div class="box">
+            <h3>category</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> men </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> women </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> kids </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> best seller </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> new arrivals </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my listing </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> sell now </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> new offers </a>
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href=" https://www.facebook.com/login/" class="fab fa-facebook-f"></a>
+        <a href=" https://twitter.com/login/" class="fab fa-twitter"></a>
+        <a href="https://www.pinterest.com/login/" class="fab fa-pinterest"></a>
+        <a href="https://www.linkedin.com/login/" class="fab fa-linkedin"></a>
+        <a href="https://www.instagram.com/accounts/login/" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit"> &copy; copyright @ 2023 by <span>T-10</span> </div>
+    
+</section>
+
+<!-- footer section ends -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+</body>
+</html>

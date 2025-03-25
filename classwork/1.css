@@ -1,0 +1,11 @@
+#sec1 {
+  background-image: linear-gradient(
+    to right,
+    #a83882,
+    #d93250,
+    #fa5037,
+    #fd904b
+  );
+  /* padding: 20px; */
+  height: 1000px;
+}

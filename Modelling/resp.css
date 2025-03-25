@@ -1,0 +1,507 @@
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  header {
+    position: relative;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    background-color: #019edb;
+    height: 50px;
+    align-items: center;
+    justify-content: end;
+  }
+  #menu-icon {
+    display: block;
+    padding-right: 1rem;
+  }
+  #logo-shape1 {
+    display: none;
+  }
+  #main-logo {
+    width: auto;
+    height: 35px;
+    object-fit: cover;
+  }
+  #logo-main {
+    top: 0%;
+    left: 0%;
+    transform: translate(-170%, -50%);
+  }
+  #logo-text1 {
+    font-size: 40px;
+  }
+  #logo-text2 {
+    display: none;
+  }
+  #shape1,
+  #shape2 {
+    display: none;
+  }
+  nav {
+    transform: translateY(-200%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+  }
+  nav ul {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .read-more-btn {
+    width: 80px;
+    height: 25px;
+  }
+  .read-more-btn a {
+    font-size: 9px;
+  }
+  #first {
+    width: 170px;
+    height: 170px;
+    top: 0;
+    left: 0%;
+    transform: translate(8%, 52%);
+  }
+  #second {
+    width: 170px;
+    height: 170px;
+    top: 0;
+    left: 0%;
+    transform: translate(82%, 52%);
+  }
+  #third {
+    width: 160px;
+    height: 160px;
+    top: 0;
+    left: 0%;
+    transform: translate(13%, 175%);
+  }
+  #fourth {
+    width: 180px;
+    height: 180px;
+    top: 0;
+    right: 0%;
+    transform: translate(62%, 149%);
+  }
+  #fifth {
+    width: 60px;
+    height: 60px;
+    bottom: 0%;
+    left: 35%;
+    transform: translate(35%, 510%);
+  }
+  #text1 {
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transform: translate(110%, 400%);
+  }
+  #p1 {
+    font-size: 12px;
+  }
+  #p2 {
+    font-size: 6px;
+    line-height: 10px;
+    text-align: center;
+  }
+  #text1 button {
+    width: 60px;
+    height: 20px;
+  }
+  #text1 button a {
+    font-size: 8px;
+  }
+  #text2 {
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    transform: translate(-65%, 440%);
+  }
+  #one {
+    font-size: 18px;
+  }
+  #p3 {
+    font-size: 12px;
+  }
+  #p4 {
+    font-size: 6px;
+    text-align: center;
+  }
+  #social-bar {
+    display: none;
+  }
+  #wall-img-1 {
+    height: 1070px;
+  }
+  #choose-us {
+    gap: 1.5rem;
+  }
+  #heading-1 {
+    gap: 0.3rem;
+  }
+  #p5 {
+    font-size: 28px;
+  }
+  #p6 {
+    font-size: 18px;
+  }
+
+  #features {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .feature {
+    width: 280px;
+    height: auto;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .feature-heading {
+    font-size: 22px;
+  }
+  .feature-content {
+    font-size: 12px;
+    text-align: center;
+  }
+  #divider {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  #divider .line {
+    width: 38px;
+    height: 3px;
+  }
+  #divider #diamond {
+    width: 15px;
+    height: 15px;
+  }
+  #sec2 {
+    margin: 0;
+  }
+  #portfolio-main-img {
+    display: none;
+  }
+  #pf-left {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 0%;
+    transform: translate(13%, -170%);
+  }
+  #pf-right {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 0%;
+    transform: translate(13%, -60%);
+  }
+  #pf-big-shape {
+    width: 300px;
+    height: 300px;
+  }
+  #pf-shape-1 {
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -10%);
+  }
+  #pf-text1 {
+    padding: 0;
+    gap: 0.5rem;
+  }
+  #pf-heading1 {
+    font-size: 18px;
+  }
+  #pf-small-shape {
+    width: 200px;
+    height: 200px;
+  }
+  #pf-p1 {
+    font-size: 10px;
+    text-align: center;
+  }
+  #pf-shape-2 {
+    top: 0%;
+    left: 17%;
+    transform: translate(0%, 125%);
+  }
+  #pf-text3 {
+    bottom: 0;
+    gap: 0.2rem;
+    transform: translate(0%, 725%);
+  }
+  #pf-heading-2 {
+    font-size: 15px;
+  }
+  #pf-p3 {
+    font-size: 6px;
+    line-height: 10px;
+    text-align: center;
+  }
+  .heading-shape {
+    width: 130px;
+    height: 130px;
+  }
+  .number-text {
+    font-size: 55px;
+  }
+  .sec-h1 {
+    font-size: 28px;
+  }
+  .sec-h2 {
+    font-size: 20px;
+  }
+  .heading-text {
+    gap: 0.5rem;
+  }
+  #sec3-content {
+    padding: 0;
+  }
+  #sec3-bg {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+  }
+  #services {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .service-heading {
+    height: 15px;
+  }
+  .service-desc {
+    font-size: 12px;
+  }
+  .service-img {
+    width: 50px;
+    height: 50px;
+  }
+  .service-divider {
+    flex-direction: row;
+  }
+  .service-divider .line {
+    width: 36px;
+    height: 3px;
+  }
+  #sec4-bg {
+    height: 600px;
+  }
+  #testimonials {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .test-desc {
+    font-size: 12px;
+  }
+  #test-1,
+  #test-2 {
+    align-items: center;
+  }
+  #test-desc-1,
+  #test-desc-2 {
+    text-align: center;
+  }
+  #sec5-bg {
+    height: 950px;
+  }
+  #sec5-content {
+    padding: 0;
+  }
+  #contact-options {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-icon {
+    width: 100px;
+    height: 100px;
+  }
+  #copright {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    transform: translateY(100%);
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 426px) {
+  #logo-main {
+    transform: translate(-190%, -50%);
+  }
+  #menu-icon {
+    padding-right: 2rem;
+  }
+  #first {
+    transform: translate(15%, 52%);
+  }
+  #second {
+    transform: translate(110%, 52%);
+  }
+  #third {
+    transform: translate(23%, 175%);
+  }
+  #fourth {
+    transform: translate(82%, 149%);
+  }
+  #fifth {
+    transform: translate(55%, 510%);
+  }
+  #text1 {
+    transform: translate(136%, 400%);
+  }
+  #text2 {
+    transform: translate(-65%, 440%);
+  }
+  #pf-left {
+    transform: translate(23%, -170%);
+  }
+  #pf-right {
+    transform: translate(23%, -60%);
+  }
+  #pf-shape-1 {
+    transform: translate(8%, -10%);
+  }
+  #pf-shape-2 {
+    transform: translate(8%, 125%);
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  #logo-main {
+    transform: translate(-200%, -50%);
+  }
+  #menu-icon {
+    padding-right: 3rem;
+  }
+  #first {
+    transform: translate(25%, 52%);
+  }
+  #second {
+    transform: translate(130%, 52%);
+  }
+  #third {
+    transform: translate(35%, 175%);
+  }
+  #fourth {
+    transform: translate(100%, 149%);
+  }
+  #fifth {
+    transform: translate(80%, 510%);
+  }
+  #text1 {
+    transform: translate(160%, 400%);
+  }
+  #text2 {
+    transform: translate(-65%, 440%);
+  }
+  #pf-left {
+    transform: translate(35%, -170%);
+  }
+  #pf-right {
+    transform: translate(35%, -60%);
+  }
+  #pf-shape-1 {
+    transform: translate(18%, -10%);
+  }
+  #pf-shape-2 {
+    transform: translate(18%, 125%);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #logo-main {
+    transform: translate(-380%, -50%);
+  }
+  #menu-icon {
+    padding-right: 5rem;
+  }
+  #first {
+    transform: translate(115%, 52%);
+  }
+  #second {
+    transform: translate(210%, 52%);
+  }
+  #third {
+    transform: translate(110%, 175%);
+  }
+  #fourth {
+    transform: translate(155%, 149%);
+  }
+  #fifth {
+    transform: translate(100%, 510%);
+  }
+  #text1 {
+    transform: translate(210%, 400%);
+  }
+  #text2 {
+    transform: translate(-65%, 440%);
+  }
+  #pf-left {
+    transform: translate(100%, -170%);
+  }
+  #pf-right {
+    transform: translate(100%, -60%);
+  }
+  #pf-shape-1 {
+    transform: translate(72%, -10%);
+  }
+  #pf-shape-2 {
+    transform: translate(68%, 125%);
+  }
+}
+
+/*
+Transform property is like a graph with X and y axis
+when u go x +ve(increase) we go right and go left for -ve(decrease) x
+when you go +ve Y we go down and when we go -ve y we go up(y is inverted from graph pov)
+for all positioning you have to change only these values only baaki saare styles already aaplied hain
+You can start changing X and Y val;ues here >_<
+*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #logo-main {
+    transform: translate(-380%, -50%);
+  }
+  #menu-icon {
+    padding-right: 5rem;
+  }
+  #first {
+    transform: translate(115%, 52%);
+  }
+  #second {
+    transform: translate(210%, 52%);
+  }
+  #third {
+    transform: translate(110%, 175%);
+  }
+  #fourth {
+    transform: translate(155%, 149%);
+  }
+  #fifth {
+    transform: translate(100%, 510%);
+  }
+  #text1 {
+    transform: translate(210%, 400%);
+  }
+  #text2 {
+    transform: translate(-65%, 440%);
+  }
+  #pf-left {
+    transform: translate(100%, -170%);
+  }
+  #pf-right {
+    transform: translate(100%, -60%);
+  }
+  #pf-shape-1 {
+    transform: translate(72%, -10%);
+  }
+  #pf-shape-2 {
+    transform: translate(68%, 125%);
+  }
+}

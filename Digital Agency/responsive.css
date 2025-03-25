@@ -1,0 +1,455 @@
+@media only screen and (min-width: 320px) and (max-width: 1025px) {
+  header {
+    position: relative;
+    padding: 0 3rem;
+    height: 50px;
+    justify-content: space-evenly;
+  }
+  #menu-icon {
+    display: block;
+  }
+  #logo  {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 00%;
+    transform: translateY(-200%);
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255,255,255,0.8);
+  }
+  #nav-part-2 {
+    display: none;
+  }
+  #nav-part-1{
+    gap: 2rem;
+  }
+  nav ul {
+    height: auto;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    /* background-color: rgb(255, 255, 255, 0.6); */
+  }
+  #sec1 {
+    overflow-x: hidden;
+  }
+  #sec1 #first-page {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  #sec1 #first-page #left-side {
+    gap: 0.5rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec1 #first-page #left-side #heading1 {
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding: 0;
+  }
+
+  #sec1 #first-page #left-side .para1 {
+    width: auto;
+    height: auto;
+    font-size: 8px;
+    line-height: 1rem;
+    text-align: center;
+  }
+  #sec1 #btn-1 {
+    width: 90px;
+    height: 35px;
+    border-radius: 18px;
+  }
+  #sec1 #btn-1 a {
+    font-size: 8px;
+  }
+  #sec1 #btn-2 {
+    padding: 0;
+  }
+  #sec1 #btn-2 a {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  #sec1 #first-page .button-wrapper {
+    align-items: center;
+  }
+  #image1 {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  #sec2 {
+    /* flex-wrap: wrap; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #sec2 .second-page {
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec2 .second-page .textboxes {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  #sec2 .second-page .textboxes #textbox-content1 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    gap: 1rem;
+    width: 175px;
+    height: 200px;
+  }
+  #sec2 .second-page .textboxes #textbox-content2 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    gap: 1rem;
+    width: 175px;
+    height: 200px;
+  }
+  #sec2 .second-page .textboxes #textbox-content2 img {
+    height: 35px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec2 .second-page .textboxes #textbox-content1 img {
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec2 .second-page .textboxes .boldtext {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-align: center;
+  }
+  #sec2 .second-page .textboxes .smalltext {
+    font-size: 7px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    text-align: center;
+  }
+  #sec2 .second-page .second-wrapper {
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #314584;
+    font-weight: 600;
+    font-family: "Work Sans";
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec2 .second-page .second-wrapper p {
+    text-align: center;
+  }
+  #sec2 .second-page .second-wrapper #btn-3 {
+    width: 70px;
+    height: 28px;
+    border-radius: 25px;
+  }
+  #sec2 .second-page .second-wrapper #btn-3 a {
+    font-size: 8px;
+    line-height: 20px;
+  }
+  #sec3 {
+    flex-direction: column;
+  }
+  #sec3 img {
+    width: 60%;
+    height: 80%;
+  }
+  #sec3 .third-page {
+    height: auto;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    padding: 2rem 0;
+  }
+  #sec3 .third-page .content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #sec3 .third-page .content-box .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  #sec3 .third-page .content-box .content .our-company {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #sec3 .third-page .content-box .content .some-fine {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    text-align: center;
+  }
+  #sec3 .third-page .content-box .content .parag {
+    width: 150px;
+    height: 100px;
+    font-size: 9px;
+    letter-spacing: 0px;
+    line-height: 12px;
+    text-align: center;
+  }
+  #sec4 {
+    padding: 2rem;
+    overflow: hidden;
+  }
+  #sec4 #fourth-page #heading4 {
+    width: 100%;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+  }
+  #sec4-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #sec4 #heading4 {
+    font-size: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 23px;
+    justify-content: center;
+    width: 100px;
+    /* padding-left: 2rem; */
+  }
+  #sec4 #fourth-page #upper-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  #sec4 #fourth-page #lower-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  #sec4 #fourth-page #upper-part .sec4-images {
+    width: 120px;
+    height: 120px;
+  }
+  #sec4 #fourth-page #lower-part .sec4-images {
+    width: 120px;
+    height: 120px;
+  }
+
+  #sec4 #fourth-page #sec4-button a {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 15px;
+  }
+  #sec5 {
+    overflow-x: hidden;
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  #sec5 .textboxes {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #sec5 .textboxes #textbox-content3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    gap: 0.5rem;
+    width: 220px;
+    height: 200px;
+  }
+
+  #sec5 .textboxes #textbox-content4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    gap: 0.5rem;
+    width: 220px;
+    height: 200px;
+  }
+  #sec5 .textboxes #textbox-content5 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    gap: 0.5rem;
+    width: 220px;
+    height: 200px;
+  }
+
+  #sec5 .textboxes .boldtext {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 15px;
+  }
+  #sec5 .textboxes .date {
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+  #sec5 .textboxes .smalltext {
+    width: 200px;
+    height: 100px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+  #sec5 .our-company {
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+  #sec5 .some-fine {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 60px;
+  }
+
+  #news-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    text-align: center;
+  }
+
+  #sec6 {
+    gap: 2rem;
+  }
+
+  #sec6-heading {
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  #p1 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 15px;
+  }
+
+  #p2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #sec6 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .form-row input {
+    width: 130px;
+    height: 40px;
+    background-color: #f4fafe;
+    border: none;
+  }
+
+  .form-row input::placeholder {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 21px;
+  }
+
+  .form-row textarea {
+    width: 100%;
+    height: 120px;
+    background-color: #f4fafe;
+    border: none;
+  }
+
+  .form-row textarea::placeholder {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 21px;
+  }
+
+  #submit-btn {
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 21px;
+  }
+  footer {
+    width: 100%;
+    height: 300px;
+    gap: 1rem;
+  }
+  #p3 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 21px;
+  }
+  #p4 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 60px;
+  }
+  footer ul li a {
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 21px;
+  }
+  footer ul {
+    gap: 0.7rem;
+  }
+  #p5 {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Work Sans";
+  }
+
+  #icons {
+    gap: 2rem;
+  }
+
+  #icons a {
+    font-size: 25px;
+  }
+}

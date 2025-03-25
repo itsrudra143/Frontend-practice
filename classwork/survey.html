@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career and Future Planning Survey</title>
+</head>
+<body style="font-family: 'Arial', sans-serif;background-color: #f4f4f4;text-align: center;margin: 50px;">
+    <div class="survey-box" style="width: 60%;margin: auto;background-color:lavenderblush;padding: 20px; border-radius: 10px;box-shadow: 15px 15px 15px rgba(253, 170, 183, 1);border: 2px solid lightpink;">
+        <h2 style="color:black ;font-size: larger;"><b><i>Welcome to our Career and Future Planning Survey!</i></b></h2>
+        <p style="font-style: oblique;">Your insights are invaluable in helping us understand your aspirations, challenges, and the resources you need for a successful career journey. The information you provide will not only assist us in enhancing the support services we offer but will also contribute to creating a more tailored and beneficial experience for you and your fellow students.</p>
+        <form style="margin-top: 20px;">
+            <p style="margin-bottom: 20px;">
+                Ques 1. What is your name?
+                <input type="text" placeholder="NAME" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;"/>
+            </p>
+            <p style="margin-bottom: 20px;">
+                Ques 2. What is your current major or field of study?
+                <input type="text" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;"/>
+            </p>
+            <p style="margin-bottom: 20px;">
+                Ques 3. How confident do you feel about your career goals and plans after graduation?
+                <select name="dropdown" id="confidenceDropdown" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                    <option value="Very Confident">Very Confident</option>
+                    <option value="Confident">Confident</option>
+                    <option value="Not Confident">Not Confident</option>
+                    <option value="Partly Confident">Partly Confident</option>
+                </select>
+            </p>
+            <p style="margin-bottom: 20px;">
+                Ques 4. Have you participated in any internships or work-study programs related to your field of study?
+                <select name="dropdown" id="yesNoDropdown" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                    <option value="YES">YES</option>
+                    <option value="NO">NO</option>
+                </select>
+            </p>
+            <p style="margin-bottom: 20px;">
+                Ques 5. Rate your satisfaction with the career counseling services provided by the college.
+                <div class="rating-container" style="display: flex;">
+                    <div class="rating-item" style="flex: 1;">
+                        <input type="radio" name="rating" id="verySatisfied" value="5" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                        <label for="verySatisfied">Very Satisfied</label>
+                    </div>
+                    <div class="rating-item" style="flex: 1;">
+                        <input type="radio" name="rating" id="satisfied" value="4" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                        <label for="satisfied">Satisfied</label>
+                    </div>
+                    <div class="rating-item" style="flex: 1;">
+                        <input type="radio" name="rating" id="neutral" value="3" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                        <label for="neutral">Neutral</label>
+                    </div>
+                    <div class="rating-item" style="flex: 1;">
+                        <input type="radio" name="rating" id="dissatisfied" value="2" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                        <label for="dissatisfied">Dissatisfied</label>
+                    </div>
+                    <div class="rating-item" style="flex: 1;">
+                        <input type="radio" name="rating" id="veryDissatisfied" value="1" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+                        <label for="veryDissatisfied">Very Dissatisfied</label>
+                    </div>
+                </div>
+            </p>
+                        <p style="margin-bottom: 20px;">
+                Ques 6. What factors are most important to you when considering potential employers (e.g., company culture, salary, location)?
+                <br><input type="text" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;"/></br>
+            </p>
+            <p style="margin-bottom: 20px;">
+                Ques 7. To what extent do you think your extracurricular activities contribute to your future career prospects?
+                <br><textarea name="message" id="" cols="10" rows="5" placeholder="Enter your description here." style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;resize: vertical;"></textarea><br>
+            </p>
+            <p style="margin-bottom: 20px;">
+    Ques 8. Are you considering further education (graduate school, certifications) after completing your current program?
+    <div class="education-options" style="display: flex;">
+        <div class="education-option" style="flex: 1;">
+            <input type="radio" name="educationConsideration" id="consideringYes" value="Yes" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="consideringYes">Yes</label>
+        </div>
+
+        <div class="education-option" style="flex: 1;">
+            <input type="radio" name="educationConsideration" id="consideringNo" value="No" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="consideringNo">No</label>
+        </div>
+    </div>
+</p>
+            <p style="margin-bottom: 20px;">
+    Ques 9. Rate your awareness of and engagement with alumni networks for career advice and opportunities.
+    <div class="awareness-options" style="display: flex;">
+        <div class="awareness-option" style="flex: 1;">
+            <input type="radio" name="alumniAwareness" id="awarenessHigh" value="High" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="awarenessHigh">High</label>
+        </div>
+        <div class="awareness-option" style="flex: 1;">
+            <input type="radio" name="alumniAwareness" id="awarenessModerate" value="Moderate" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="awarenessModerate">Moderate</label>
+        </div>
+        <div class="awareness-option" style="flex: 1;">
+            <input type="radio" name="alumniAwareness" id="awarenessLow" value="Low" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="awarenessLow">Low</label>
+        </div>
+    </div>
+</p>
+               <p style="margin-bottom: 20px;">
+    Ques 10. Would you be interested in workshops or seminars on topics such as resume building, interview skills, and job search strategies?
+    <div class="interest-options" style="display: flex;">
+        <div class="interest-option" style="flex: 1;">
+            <input type="checkbox" name="interest" id="resumeBuilding" value="Resume Building" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="resumeBuilding">Resume Building</label>
+        </div>
+        <div class="interest-option" style="flex: 1;">
+            <input type="checkbox" name="interest" id="interviewSkills" value="Interview Skills" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="interviewSkills">Interview Skills</label>
+        </div>
+
+        <div class="interest-option" style="flex: 1;">
+            <input type="checkbox" name="interest" id="jobSearchStrategies" value="Job Search Strategies" style="width: calc(100% - 20px);padding: 10px;margin-bottom: 10px;box-sizing: border-box;">
+            <label for="jobSearchStrategies">Job Search Strategies</label>
+        </div>
+    </div>
+</p>
+            <button type="button" class="submit-button" onclick="submitSurvey()" style="margin-top: 20px;background-color: #4CAF50;color: white;padding: 10px 20px; border: none;border-radius: 5px;cursor: pointer;font-size: 16px;">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

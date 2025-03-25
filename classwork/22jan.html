@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="change-text">Helloooo Myself</h1>
+    <button id="change-button">Change the button</button>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    document
+      .querySelector("#change-button")
+      .addEventListener("click", function () {
+        document.querySelector("#change-text").innerText =
+          "You are awesome!   *>_<* ";
+      });
+  </script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="event-bubble-div">
+      <button class="btn" id="btn-1">btn-1</button>
+      <button class="btn" id="btn-2">btn-2</button>
+      <button class="btn" id="btn-3">btn-3</button>
+    </div>
+    <div id="event-capture-div">
+      <button class="btn" id="btn-4">btn-4</button>
+      <button class="btn" id="btn-5">btn-5</button>
+      <button class="btn" id="btn-6">btn-6</button>
+    </div>
+
+    <script>
+      // Event Bubbling
+      const bubbleDiv = document.getElementById("event-bubble-div");
+      bubbleDiv.addEventListener("click", function (event) {
+        const targetBtn = event.target;
+        if (targetBtn.classList.contains("btn")) {
+          console.log(
+            "Button clicked (Event Bubbling): " + targetBtn.textContent
+          );
+        }
+      });
+
+      // Event Capture
+      const captureDiv = document.getElementById("event-capture-div");
+      captureDiv.addEventListener(
+        "click",
+        function (event) {
+          const targetBtn = event.target;
+          if (targetBtn.classList.contains("btn")) {
+            console.log(
+              "Button clicked (Event Capture): " + targetBtn.textContent
+            );
+          }
+        },
+        true
+      ); // true here indicates the use of capture phase
+    </script>
+  </body>
+</html>
+
+
